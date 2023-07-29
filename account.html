@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Личный кабинет</title>
+</head>
+
+
+<body>
+	<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a class="header__logo" href="">
+                <img src="img/logo.svg" alt="">
+                <img src="img/logo-mob.svg" alt="">
+            </a>
+            <div class="search">
+                <input type="search" placeholder="Поиск">
+                <button class="search-btn">
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.85913 14.3911L0.642334 18.6069L2.03546 20L6.25127 15.7832C7.81991 17.0407 9.77101 17.7246 11.7814 17.7218C16.6727 17.7218 20.6423 13.7521 20.6423 8.86088C20.6423 3.96968 16.6727 0 11.7814 0C6.89024 0 2.92056 3.96968 2.92056 8.86088C2.9177 10.8713 3.60165 12.8224 4.85913 14.3911ZM6.83412 13.6605C5.58463 12.3756 4.88683 10.6532 4.88965 8.86088C4.88965 5.05366 7.97422 1.96909 11.7814 1.96909C15.5887 1.96909 18.6732 5.05366 18.6732 8.86088C18.6732 12.6681 15.5887 15.7527 11.7814 15.7527C9.98916 15.7555 8.26674 15.0577 6.9818 13.8082L6.83412 13.6605Z" fill="#C0C8CD"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="header__btns">
+                <button class="search-mob">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.4215 23.9948L7.62488 28.7903L9.20956 30.375L14.005 25.5784C15.7894 27.0088 18.0087 27.7868 20.2956 27.7835C25.8594 27.7835 30.3749 23.268 30.3749 17.7043C30.3749 12.1405 25.8594 7.625 20.2956 7.625C14.7319 7.625 10.2164 12.1405 10.2164 17.7043C10.2131 19.9911 10.9911 22.2105 12.4215 23.9948ZM14.668 23.1639C13.2467 21.7022 12.453 19.743 12.4562 17.7043C12.4562 13.3735 15.9649 9.86483 20.2956 9.86483C24.6263 9.86483 28.135 13.3735 28.135 17.7043C28.135 22.035 24.6263 25.5437 20.2956 25.5437C18.2569 25.5469 16.2976 24.7531 14.836 23.3318L14.668 23.1639Z" fill="#1D424B"/>
+                    </svg>
+                </button>
+                <a href="" class="header__map">
+                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 0L22.594 0.623347L15.969 3.45883L8.344 0.591431L7.969 0.466762L7.594 0.623347L0.594 3.61541L0 3.86475V23L1.406 22.3767L8.031 19.5412L15.656 22.4086L16.031 22.5332L16.406 22.3767L23.406 19.3846L24 19.1353V0ZM9 2.96015L15 5.2042V20.0408L9 17.7968V2.96015ZM7 3.02298V17.8277L2 19.978V5.17328L7 3.02298ZM22 3.02298V17.8277L17 19.978V5.17328L22 3.02298Z" fill="#1D424B"/>
+                    </svg>
+                </a>
+                <div class="header__menu">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="8" cy="8" r="2" fill="#1D424B"/>
+                        <circle cx="16" cy="8" r="2" fill="#1D424B"/>
+                        <circle cx="24" cy="8" r="2" fill="#1D424B"/>
+                        <circle cx="8" cy="16" r="2" fill="#1D424B"/>
+                        <circle cx="16" cy="16" r="2" fill="#1D424B"/>
+                        <circle cx="24" cy="16" r="2" fill="#1D424B"/>
+                        <circle cx="8" cy="24" r="2" fill="#1D424B"/>
+                        <circle cx="16" cy="24" r="2" fill="#1D424B"/>
+                        <circle cx="24" cy="24" r="2" fill="#1D424B"/>
+                    </svg>
+                </div>
+                <a href="" class="header__btn btn">
+                    <i>
+                        <svg width="24" height="27" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.60573 4.76524L9.25092 2.45882C11.0985 1.54148 13.272 1.55651 15.1066 2.49931L19.4744 4.74384C21.6391 5.85621 23 8.08563 23 10.5194V16.2382C23 18.612 21.7047 20.7966 19.6219 21.9355L15.2516 24.3253C13.3393 25.371 11.0299 25.3876 9.10272 24.3694L4.46005 21.9164C2.33166 20.7919 1 18.5822 1 16.175V10.5813C1 8.1152 2.39693 5.86195 4.60573 4.76524Z" stroke="white" stroke-width="2"/>
+                        </svg>
+                    </i>
+                    <span>Войти через Госуслуги</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="menu">
+    <div class="menu-close">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="container">
+        <div class="menu__inner">
+            <div class="menu__items">
+                <div class="menu__item big">
+                    <div class="menu__item-title">Решить проблему</div>
+                    <ul class="menu__item-list">
+                        <li><a href="">Сообщить о проблеме</a></li>
+                        <li><a href="">Правила обработки и модерации вопросов</a></li>
+                    </ul>
+                </div>
+                <div class="menu__item big">
+                    <div class="menu__item-title">Народный бюджет</div>
+                    <ul class="menu__item-list">
+                        <li><a href="">О проекте</a></li>
+                        <li><a href="">Проекты</a></li>
+                        <li><a href="">Критерии отбора</a></li>
+                        <li><a href="">Конкурсная комисия</a></li>
+                    </ul>
+                </div>
+                <a href="" class="menu__item">
+                    <div class="menu__item-title">График отключения электроэнергии </div>
+                </a>
+                <a href="" class="menu__item">
+                    <div class="menu__item-title">Карта мощности сигнала</div>
+                </a>
+                <a href="" class="menu__item">
+                    <div class="menu__item-title">Запись к должностному лицу</div>
+                </a>
+                <a href="" class="menu__item">
+                    <div class="menu__item-title">Актуальные вопросы</div>
+                </a>
+                <a href="" class="menu__item">
+                    <div class="menu__item-title">Новости</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+	<main class="content">
+
+		<section class="page-top">
+			<div class="container">
+				<div class="page-top__inner">
+					<div class="page-top__left">
+						<h2 class="page-top__title text28">Личный кабинет</h2>
+					</div>
+					<div class="page-top__right">
+						<div class="page-top__select custom_select">
+							<select>
+								<option value="Решить проблему">Решить проблему</option>
+								<option value="Решить проблему 2">Решить проблему 2</option>
+								<option value="Решить проблему 3">Решить проблему 3</option>
+								<option value="Решить проблему 4">Решить проблему 4</option>
+								<option value="Решить проблему 5">Решить проблему 5</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="account">
+			<div class="container">
+				<div class="breadcrumbs">
+					<div class="breadcrumbs__items">
+						<a href="index.html" class="breadcrumbs__item">Главная</a>
+						<span class="breadcrumbs__icon">/</span>
+						<span class="breadcrumbs__item breadcrumbs__item--active">Личный кабинет</span>
+					</div>
+				</div>
+				<div class="account__inner">
+					<div class="account__top">
+						<h1 class="account__title text36">Мои обращения</h1>
+						<div class="account__tabs-head">
+							<div data-tab-path="1" class="account__tab account__tab--active text20">Отправлено</div>
+							<div data-tab-path="2" class="account__tab text20">Принято</div>
+							<div data-tab-path="3" class="account__tab text20">Решено</div>
+							<div data-tab-path="4" class="account__tab text20">Отклонено</div>
+						</div>
+					</div>
+					<div class="search">
+						<input type="search" placeholder="Поиск по обращениям">
+						<button class="search-btn">
+							<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4.85913 14.3911L0.642334 18.6069L2.03546 20L6.25127 15.7832C7.81991 17.0407 9.77101 17.7246 11.7814 17.7218C16.6727 17.7218 20.6423 13.7521 20.6423 8.86088C20.6423 3.96968 16.6727 0 11.7814 0C6.89024 0 2.92056 3.96968 2.92056 8.86088C2.9177 10.8713 3.60165 12.8224 4.85913 14.3911ZM6.83412 13.6605C5.58463 12.3756 4.88683 10.6532 4.88965 8.86088C4.88965 5.05366 7.97422 1.96909 11.7814 1.96909C15.5887 1.96909 18.6732 5.05366 18.6732 8.86088C18.6732 12.6681 15.5887 15.7527 11.7814 15.7527C9.98916 15.7555 8.26674 15.0577 6.9818 13.8082L6.83412 13.6605Z" fill="#C0C8CD"/>
+							</svg>
+						</button>
+					</div>
+					<div class="account__tabs-body">
+						<div data-content-path="1" class="account-cards account-cards--active">
+							<div class="account-card">
+								<div class="account-card__status accepted-status text20">Принято</div>
+								<div class="account-card__img">
+									<img src="img/account-img.webp" alt="">
+								</div>
+								<div class="account-card__desc">
+									<div class="account-card__top">
+										<div class="account-card__title text20">Обращение №1</div>
+										<div class="account-card__date text20">20.05.2023</div>
+									</div>
+									<div class="account-card__text text24">Необходимость дезинсекции (насекомые), дезинфекции в местах общего пользования многоквартирного дома в многоквартирном доме</div>
+									<div class="account-card__address text18">Новомосковск г., Новомосковск г, Трудовые Резервы ул, д. 44</div>
+								</div>
+							</div>
+							<div class="account-card">
+								<div class="account-card__status decided-status text20">Решено</div>
+								<div class="account-card__img">
+									<img src="img/account-img2.webp" alt="">
+								</div>
+								<div class="account-card__desc">
+									<div class="account-card__top">
+										<div class="account-card__title text20">Обращение №2</div>
+										<div class="account-card__date text20">20.05.2023</div>
+									</div>
+									<div class="account-card__text text24">Необходимость дератизации (грызуны) в местах общего пользования многоквартирного дома</div>
+									<div class="account-card__address text18">Тула г., Тула г, Пушкинская ул, д. 28</div>
+								</div>
+							</div>
+							<div class="account-card">
+								<div class="account-card__status rejected-status text20">Отклонено</div>
+								<div class="account-card__img">
+									<img src="img/account-img3.webp" alt="">
+								</div>
+								<div class="account-card__desc">
+									<div class="account-card__top">
+										<div class="account-card__title text20">Обращение №3</div>
+										<div class="account-card__date text20">20.05.2023</div>
+									</div>
+									<div class="account-card__text text24">Опиловка деревьев, создающих угрозу повреждения конструкции многоквартирного дома, на придомовой территории</div>
+									<div class="account-card__address text18">Тула г., Тула г, Неман Н. ул, д. 37Б</div>
+								</div>
+							</div>
+							<div class="account-card">
+								<div class="account-card__status shipped-status">Отправлено</div>
+								<div class="account-card__img">
+									<img src="img/account-img4.webp" alt="">
+								</div>
+								<div class="account-card__desc">
+									<div class="account-card__top">
+										<div class="account-card__title text20">Обращение №4</div>
+										<div class="account-card__date text20">20.05.2023</div>
+									</div>
+									<div class="account-card__text text24">Неубранный мусор на придомовой территории многоквартирного дома, в том числе крупногабаритный</div>
+									<div class="account-card__address text18">Новомосковск г., Новомосковск г, Московская ул, д. 6/6 .</div>
+								</div>
+							</div>
+						</div>
+						<div data-content-path="2" class="account-cards">
+							<div class="account-card">
+								<div class="account-card__status accepted-status text20">Принято</div>
+								<div class="account-card__img">
+									<img src="img/account-img.webp" alt="">
+								</div>
+								<div class="account-card__desc">
+									<div class="account-card__top">
+										<div class="account-card__title text20">Обращение №1</div>
+										<div class="account-card__date text20">20.05.2023</div>
+									</div>
+									<div class="account-card__text text24">Необходимость дезинсекции (насекомые), дезинфекции в местах общего пользования многоквартирного дома в многоквартирном доме</div>
+									<div class="account-card__address text18">Новомосковск г., Новомосковск г, Трудовые Резервы ул, д. 44</div>
+								</div>
+							</div>
+						</div>
+						<div data-content-path="3" class="account-cards">
+							<div class="account-card">
+								<div class="account-card__status accepted-status text20">Принято</div>
+								<div class="account-card__img">
+									<img src="img/account-img.webp" alt="">
+								</div>
+								<div class="account-card__desc">
+									<div class="account-card__top">
+										<div class="account-card__title text20">Обращение №1</div>
+										<div class="account-card__date text20">20.05.2023</div>
+									</div>
+									<div class="account-card__text text24">Необходимость дезинсекции (насекомые), дезинфекции в местах общего пользования многоквартирного дома в многоквартирном доме</div>
+									<div class="account-card__address text18">Новомосковск г., Новомосковск г, Трудовые Резервы ул, д. 44</div>
+								</div>
+							</div>
+							<div class="account-card">
+								<div class="account-card__status decided-status text20">Решено</div>
+								<div class="account-card__img">
+									<img src="img/account-img2.webp" alt="">
+								</div>
+								<div class="account-card__desc">
+									<div class="account-card__top">
+										<div class="account-card__title text20">Обращение №2</div>
+										<div class="account-card__date text20">20.05.2023</div>
+									</div>
+									<div class="account-card__text text24">Необходимость дератизации (грызуны) в местах общего пользования многоквартирного дома</div>
+									<div class="account-card__address text18">Тула г., Тула г, Пушкинская ул, д. 28</div>
+								</div>
+							</div>
+						</div>
+						<div data-content-path="4" class="account-cards">
+							<div class="account-card">
+								<div class="account-card__status accepted-status text20">Принято</div>
+								<div class="account-card__img">
+									<img src="img/account-img.webp" alt="">
+								</div>
+								<div class="account-card__desc">
+									<div class="account-card__top">
+										<div class="account-card__title text20">Обращение №1</div>
+										<div class="account-card__date text20">20.05.2023</div>
+									</div>
+									<div class="account-card__text text24">Необходимость дезинсекции (насекомые), дезинфекции в местах общего пользования многоквартирного дома в многоквартирном доме</div>
+									<div class="account-card__address text18">Новомосковск г., Новомосковск г, Трудовые Резервы ул, д. 44</div>
+								</div>
+							</div>
+							<div class="account-card">
+								<div class="account-card__status decided-status text20">Решено</div>
+								<div class="account-card__img">
+									<img src="img/account-img2.webp" alt="">
+								</div>
+								<div class="account-card__desc">
+									<div class="account-card__top">
+										<div class="account-card__title text20">Обращение №2</div>
+										<div class="account-card__date text20">20.05.2023</div>
+									</div>
+									<div class="account-card__text text24">Необходимость дератизации (грызуны) в местах общего пользования многоквартирного дома</div>
+									<div class="account-card__address text18">Тула г., Тула г, Пушкинская ул, д. 28</div>
+								</div>
+							</div>
+							<div class="account-card">
+								<div class="account-card__status rejected-status text20">Отклонено</div>
+								<div class="account-card__img">
+									<img src="img/account-img3.webp" alt="">
+								</div>
+								<div class="account-card__desc">
+									<div class="account-card__top">
+										<div class="account-card__title text20">Обращение №3</div>
+										<div class="account-card__date text20">20.05.2023</div>
+									</div>
+									<div class="account-card__text text24">Опиловка деревьев, создающих угрозу повреждения конструкции многоквартирного дома, на придомовой территории</div>
+									<div class="account-card__address text18">Тула г., Тула г, Неман Н. ул, д. 37Б</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__left">
+                <div class="footer__text">Мобильное приложение</div>
+               <div class="footer__group">
+                   <div class="footer__barcode">
+                       <img src="img/barcode.svg" alt="">
+                   </div>
+                   <div class="footer__downloads">
+                       <a href="" class="footer__loading">
+                           <img src="img/android.svg" alt="">
+                       </a>
+                       <a href="" class="footer__loading">
+                           <img src="img/ios.svg" alt="">
+                       </a>
+                   </div>
+               </div>
+            </div>
+            <div class="footer__center">
+                <a class="footer__logo" href="">
+                    <img src="img/logo2.svg" alt="">
+                </a>
+                <a class="footer__user-agreement" href="">
+                    Пользовательское соглашение
+                </a>
+            </div>
+            <div class="footer__right">
+                <div class="footer__text">Телефон доверия Губернатора</div>
+                <a class="footer__tel" href="tel:8 800 200 71 02">8 800 200 71 02</a>
+                <a class="footer__btn btn btn-border" href="">
+                    <span>Обратная связь</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
