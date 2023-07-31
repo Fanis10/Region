@@ -43,6 +43,9 @@
 				<li><a href="reception2.html">Запись к должностному лицу 2</a></li>
 				<li><a href="reception3.html">Запись к должностному лицу 3</a></li>
 				<li><a href="reception4.html">Запись к должностному лицу 4</a></li>
+				<li><a href="reception5.html">Запись к должностному лицу 5</a></li>
+				<li><a href="reception6.html">Запись к должностному лицу 6</a></li>
+				<li><a href="reception7.html">Личный кабинет 3</a></li>
 
 				<li></li>
 				<li><a href="search.html">Поиск</a></li>
@@ -58,6 +61,52 @@
 				<li><a href="news-item.html">Новости 2</a></li>
 				<li><a href="news-item2.html">Новости 3</a></li>
 			</ul>
+			<button class="nav-btn btn-green" data-modal="contactModal">
+				<span>Модальное окно</span>
+			</button>
+
+
+			<div class="modal" id="contactModal">
+				<div class="modal__dialog">
+					<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M15.7656 14.6336C15.8399 14.708 15.8988 14.7962 15.9391 14.8933C15.9793 14.9904 16 15.0945 16 15.1996C16 15.3047 15.9793 15.4088 15.9391 15.5059C15.8988 15.603 15.8399 15.6912 15.7656 15.7656C15.6912 15.8399 15.603 15.8988 15.5059 15.9391C15.4088 15.9793 15.3047 16 15.1996 16C15.0945 16 14.9904 15.9793 14.8933 15.9391C14.7962 15.8988 14.708 15.8399 14.6336 15.7656L8 9.13094L1.36637 15.7656C1.21626 15.9157 1.01268 16 0.8004 16C0.588121 16 0.384536 15.9157 0.234432 15.7656C0.0843276 15.6155 4.18453e-09 15.4119 0 15.1996C-4.18453e-09 14.9873 0.0843276 14.7837 0.234432 14.6336L6.86906 8L0.234432 1.36637C0.0843276 1.21626 -1.5816e-09 1.01268 0 0.8004C1.5816e-09 0.588121 0.0843276 0.384536 0.234432 0.234432C0.384536 0.0843276 0.588121 1.5816e-09 0.8004 0C1.01268 -1.5816e-09 1.21626 0.0843276 1.36637 0.234432L8 6.86906L14.6336 0.234432C14.7837 0.0843276 14.9873 -4.18453e-09 15.1996 0C15.4119 4.18453e-09 15.6155 0.0843276 15.7656 0.234432C15.9157 0.384536 16 0.588121 16 0.8004C16 1.01268 15.9157 1.21626 15.7656 1.36637L9.13094 8L15.7656 14.6336Z" fill="#899DA1"/>
+						</svg>
+					</button>
+					<div class="modal__content">
+						<div class="modal__title text20">Выберите удобное время</div>
+						<div class="reception__items">
+							<input type='text' class="datepicker-here"/>
+							<div class="reception__checkboxes2">
+								<div class="text18">Время</div>
+								<div class="reception__checkboxes2-grid">
+									<div class="reception__checkbox2">
+										<input type="radio" name="reception__check2">
+										<label class="text18">10:00 - 10:20</label>
+									</div>
+									<div class="reception__checkbox2">
+										<input type="radio" name="reception__check2">
+										<label class="text18">11:00 - 11:20</label>
+									</div>
+									<div class="reception__checkbox2">
+										<input type="radio" name="reception__check2">
+										<label class="text18">14:30 - 14:50</label>
+									</div>
+									<div class="reception__checkbox2">
+										<input type="radio" name="reception__check2">
+										<label class="text18">16:40 - 17:00</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="modal__btn btn btn-green" href="">
+							<span>Записаться</span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
 		</div>
 	</nav>
 
